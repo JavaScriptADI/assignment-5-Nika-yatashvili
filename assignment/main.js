@@ -36,39 +36,39 @@ console.log(x);
 // task11 
 
 function bar(y = 8) {
-   return y += 1;
+    return y += 1;
 }
 
-let y = bar()
-console.log(y)
+let y = bar();
+console.log(y);
 
 function fo() {
-   return y =  bar() * 2 ;
-     
+    return y = bar() * 2;
+
 }
 
-y = fo()
+y = fo();
 
-console.log(y)
-
- 
+console.log(y);
 
 
-  y = 7;
+
+
+y = 7;
 fo(y);
 console.log(y); // x should change!
 
 
-console.log("task12");  
+console.log("task12");
 // ????
 function fooo(z) {
- 
+
     if (z > 5) {
         return z;
     } else {
         return z + fooo(z + 1);
     }
-    
+
 }
 
 
